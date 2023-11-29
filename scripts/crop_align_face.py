@@ -21,6 +21,8 @@ import PIL.Image
 import scipy
 import scipy.ndimage
 import argparse
+import sys
+sys.path.append(r"C:\Users\wangdan\CodeFormer")
 from basicsr.utils.download_util import load_file_from_url
 
 try:

@@ -1,7 +1,8 @@
 import argparse
 import os
 from os import path as osp
-
+import sys
+sys.path.append(r"C:\Users\wangdan\CodeFormer")
 from basicsr.utils.download_util import load_file_from_url
 
 
